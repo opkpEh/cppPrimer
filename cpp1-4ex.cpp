@@ -1,12 +1,14 @@
 #include <iostream>
-
 int main(){
-      int sum= 0, val= 1;
-      while (val<=10){
-            sum += val;
-            ++val;
+
+      int sum= 0, var= 50;
+      while(var<= 100){
+            sum+= var;
+            var++;
       }
 
-      std::cout<< "The  sum of 1 to 10 inclusive is: "<< sum<< std::endl;
+      std::cout<< "The sum from 50 to 100 is: "<< sum<< std::endl;
+
       return 0;
 }
+
